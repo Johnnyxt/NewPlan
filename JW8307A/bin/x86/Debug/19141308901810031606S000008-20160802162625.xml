@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestResults xsi:schemaLocation="http://www.ieee.org/ATML/2007/TestResults TestResults.xsd" xmlns="http://www.ieee.org/ATML/2007/TestResults" xmlns:n2="http://www.altova.com/samplexml/other-namespace" xmlns:c="http://www.ieee.org/ATML/2007/02/Common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ResultSet ID="1" startDateTime="2016-08-02T16:26:12" endDateTime="2016-08-02T16:26:25" operationSequence="1" siteCode="MP2">
+    <Description>CM181003</Description>
+    <TestResult BoardFlag="1" ID="1">
+      <Outcome value="Failed" />
+    </TestResult>
+    <ItemTest ID="1" name="IL_RL Test(1A)" startDateTime="2016-08-02T16:26:14" endDateTime="2016-08-02T16:26:14">
+      <TestResult BoardFlag="1" ID="1" ValueFlag="0" SerialNumber="NOCODE">
+        <Outcome value="Failed" />
+        <Description>NoDesc</Description>
+      </TestResult>
+      <SubItemTest ID="1" name="R101:1310_IL_SCAPC">
+        <TestResult BoardFlag="1" ID="1" SerialNumber="NOCODE">
+          <Outcome value="Failed" />
+          <Description>52.75</Description>
+          <TestData>
+            <c:Datum xsi:type="c:string">
+              <c:Value>0:5</c:Value>
+            </c:Datum>
+          </TestData>
+        </TestResult>
+      </SubItemTest>
+      <SubItemTest ID="2" name="R101:1310_RL_SCAPC">
+        <TestResult BoardFlag="1" ID="1" SerialNumber="NOCODE">
+          <Outcome value="Passed" />
+          <Description>0.0</Description>
+          <TestData>
+            <c:Datum xsi:type="c:string">
+              <c:Value>0:90</c:Value>
+            </c:Datum>
+          </TestData>
+        </TestResult>
+      </SubItemTest>
+      <SubItemTest ID="3" name="R101:1550_IL_SCAPC">
+        <TestResult BoardFlag="1" ID="1" SerialNumber="NOCODE">
+          <Outcome value="Failed" />
+          <Description>52.72</Description>
+          <TestData>
+            <c:Datum xsi:type="c:string">
+              <c:Value>0:0.3</c:Value>
+            </c:Datum>
+          </TestData>
+        </TestResult>
+      </SubItemTest>
+      <SubItemTest ID="4" name="R101:1550_RL_SCAPC">
+        <TestResult BoardFlag="1" ID="1" SerialNumber="NOCODE">
+          <Outcome value="Failed" />
+          <Description>0.0</Description>
+          <TestData>
+            <c:Datum xsi:type="c:string">
+              <c:Value>60:90</c:Value>
+            </c:Datum>
+          </TestData>
+        </TestResult>
+      </SubItemTest>
+    </ItemTest>
+    <ItemTest ID="2" name="IL_RL Test(1B)" startDateTime="2016-08-02T16:26:15" endDateTime="2016-08-02T16:26:15">
+      <TestResult BoardFlag="1" ID="1" ValueFlag="0" SerialNumber="NOCODE">
+        <Outcome value="Passed" />
+        <Description>NoDesc</Description>
+      </TestResult>
+      <SubItemTest ID="1" name="R101:1310_IL_SCAPC">
+        <TestResult BoardFlag="1" ID="1" SerialNumber="NOCODE">
+          <Outcome value="Failed" />
+          <Description>52.76</Description>
+          <TestData>
+            <c:Datum xsi:type="c:string">
+              <c:Value>0:5</c:Value>
+            </c:Datum>
+          </TestData>
+        </TestResult>
+      </SubItemTest>
+      <SubItemTest ID="2" name="R101:1310_RL_SCAPC">
+        <TestResult BoardFlag="1" ID="1" SerialNumber="NOCODE">
+          <Outcome value="Passed" />
+          <Description>0.0</Description>
+          <TestData>
+            <c:Datum xsi:type="c:string">
+              <c:Value>0:90</c:Value>
+            </c:Datum>
+          </TestData>
+        </TestResult>
+      </SubItemTest>
+      <SubItemTest ID="3" name="R101:1550_IL_SCAPC">
+        <TestResult BoardFlag="1" ID="1" SerialNumber="NOCODE">
+          <Outcome value="Failed" />
+          <Description>53.00</Description>
+          <TestData>
+            <c:Datum xsi:type="c:string">
+              <c:Value>0:0.3</c:Value>
+            </c:Datum>
+          </TestData>
+        </TestResult>
+      </SubItemTest>
+      <SubItemTest ID="4" name="R101:1550_RL_SCAPC">
+        <TestResult BoardFlag="1" ID="1" SerialNumber="NOCODE">
+          <Outcome value="Failed" />
+          <Description>0.0</Description>
+          <TestData>
+            <c:Datum xsi:type="c:string">
+              <c:Value>60:90</c:Value>
+            </c:Datum>
+          </TestData>
+        </TestResult>
+      </SubItemTest>
+    </ItemTest>
+    <ItemTest ID="3" name="IL_RL Test(2A)" startDateTime="2016-08-02T16:26:18" endDateTime="2016-08-02T16:26:18">
+      <TestResult BoardFlag="1" ID="1" ValueFlag="0" SerialNumber="NOCODE">
+        <Outcome value="Failed" />
+        <Description>NoDesc</Description>
+      </TestResult>
+      <SubItemTest ID="1" name="R101:1310_IL_SCAPC">
+        <TestResult BoardFlag="1" ID="1" SerialNumber="NOCODE">
+          <Outcome value="Failed" />
+          <Description>54.83</Description>
+          <TestData>
+            <c:Datum xsi:type="c:string">
+              <c:Value>0:5</c:Value>
+            </c:Datum>
+          </TestData>
+        </TestResult>
+      </SubItemTest>
+      <SubItemTest ID="2" name="R101:1310_RL_SCAPC">
+        <TestResult BoardFlag="1" ID="1" SerialNumber="NOCODE">
+          <Outcome value="Passed" />
+          <Description>0.0</Description>
+          <TestData>
+            <c:Datum xsi:type="c:string">
+              <c:Value>0:90</c:Value>
+            </c:Datum>
+          </TestData>
+        </TestResult>
+      </SubItemTest>
+      <SubItemTest ID="3" name="R101:1550_IL_SCAPC">
+        <TestResult BoardFlag="1" ID="1" SerialNumber="NOCODE">
+          <Outcome value="Failed" />
+          <Description>54.83</Description>
+          <TestData>
+            <c:Datum xsi:type="c:string">
+              <c:Value>0:0.3</c:Value>
+            </c:Datum>
+          </TestData>
+        </TestResult>
+      </SubItemTest>
+      <SubItemTest ID="4" name="R101:1550_RL_SCAPC">
+        <TestResult BoardFlag="1" ID="1" SerialNumber="NOCODE">
+          <Outcome value="Failed" />
+          <Description>0.0</Description>
+          <TestData>
+            <c:Datum xsi:type="c:string">
+              <c:Value>60:90</c:Value>
+            </c:Datum>
+          </TestData>
+        </TestResult>
+      </SubItemTest>
+    </ItemTest>
+    <ItemTest ID="4" name="IL_RL Test(2B)" startDateTime="2016-08-02T16:26:19" endDateTime="2016-08-02T16:26:19">
+      <TestResult BoardFlag="1" ID="1" ValueFlag="0" SerialNumber="NOCODE">
+        <Outcome value="Failed" />
+        <Description>NoDesc</Description>
+      </TestResult>
+      <SubItemTest ID="1" name="R101:1310_IL_SCAPC">
+        <TestResult BoardFlag="1" ID="1" SerialNumber="NOCODE">
+          <Outcome value="Failed" />
+          <Description>54.81</Description>
+          <TestData>
+            <c:Datum xsi:type="c:string">
+              <c:Value>0:5</c:Value>
+            </c:Datum>
+          </TestData>
+        </TestResult>
+      </SubItemTest>
+      <SubItemTest ID="2" name="R101:1310_RL_SCAPC">
+        <TestResult BoardFlag="1" ID="1" SerialNumber="NOCODE">
+          <Outcome value="Passed" />
+          <Description>0.0</Description>
+          <TestData>
+            <c:Datum xsi:type="c:string">
+              <c:Value>0:90</c:Value>
+            </c:Datum>
+          </TestData>
+        </TestResult>
+      </SubItemTest>
+      <SubItemTest ID="3" name="R101:1550_IL_SCAPC">
+        <TestResult BoardFlag="1" ID="1" SerialNumber="NOCODE">
+          <Outcome value="Failed" />
+          <Description>54.80</Description>
+          <TestData>
+            <c:Datum xsi:type="c:string">
+              <c:Value>0:0.3</c:Value>
+            </c:Datum>
+          </TestData>
+        </TestResult>
+      </SubItemTest>
+      <SubItemTest ID="4" name="R101:1550_RL_SCAPC">
+        <TestResult BoardFlag="1" ID="1" SerialNumber="NOCODE">
+          <Outcome value="Failed" />
+          <Description>0.0</Description>
+          <TestData>
+            <c:Datum xsi:type="c:string">
+              <c:Value>60:90</c:Value>
+            </c:Datum>
+          </TestData>
+        </TestResult>
+      </SubItemTest>
+    </ItemTest>
+    <ItemTest ID="5" name="IL_RL Test(3A)" startDateTime="2016-08-02T16:26:21" endDateTime="2016-08-02T16:26:21">
+      <TestResult BoardFlag="1" ID="1" ValueFlag="0" SerialNumber="NOCODE">
+        <Outcome value="Failed" />
+        <Description>NoDesc</Description>
+      </TestResult>
+      <SubItemTest ID="1" name="R101:1310_IL_SCAPC">
+        <TestResult BoardFlag="1" ID="1" SerialNumber="NOCODE">
+          <Outcome value="Failed" />
+          <Description>54.81</Description>
+          <TestData>
+            <c:Datum xsi:type="c:string">
+              <c:Value>0:5</c:Value>
+            </c:Datum>
+          </TestData>
+        </TestResult>
+      </SubItemTest>
+      <SubItemTest ID="2" name="R101:1310_RL_SCAPC">
+        <TestResult BoardFlag="1" ID="1" SerialNumber="NOCODE">
+          <Outcome value="Passed" />
+          <Description>0.0</Description>
+          <TestData>
+            <c:Datum xsi:type="c:string">
+              <c:Value>0:90</c:Value>
+            </c:Datum>
+          </TestData>
+        </TestResult>
+      </SubItemTest>
+      <SubItemTest ID="3" name="R101:1550_IL_SCAPC">
+        <TestResult BoardFlag="1" ID="1" SerialNumber="NOCODE">
+          <Outcome value="Failed" />
+          <Description>54.79</Description>
+          <TestData>
+            <c:Datum xsi:type="c:string">
+              <c:Value>0:0.3</c:Value>
+            </c:Datum>
+          </TestData>
+        </TestResult>
+      </SubItemTest>
+      <SubItemTest ID="4" name="R101:1550_RL_SCAPC">
+        <TestResult BoardFlag="1" ID="1" SerialNumber="NOCODE">
+          <Outcome value="Failed" />
+          <Description>0.0</Description>
+          <TestData>
+            <c:Datum xsi:type="c:string">
+              <c:Value>60:90</c:Value>
+            </c:Datum>
+          </TestData>
+        </TestResult>
+      </SubItemTest>
+    </ItemTest>
+    <ItemTest ID="6" name="IL_RL Test(3B)" startDateTime="2016-08-02T16:26:22" endDateTime="2016-08-02T16:26:22">
+      <TestResult BoardFlag="1" ID="1" ValueFlag="0" SerialNumber="NOCODE">
+        <Outcome value="Passed" />
+        <Description>NoDesc</Description>
+      </TestResult>
+      <SubItemTest ID="1" name="R101:1310_IL_SCAPC">
+        <TestResult BoardFlag="1" ID="1" SerialNumber="NOCODE">
+          <Outcome value="Failed" />
+          <Description>54.79</Description>
+          <TestData>
+            <c:Datum xsi:type="c:string">
+              <c:Value>0:5</c:Value>
+            </c:Datum>
+          </TestData>
+        </TestResult>
+      </SubItemTest>
+      <SubItemTest ID="2" name="R101:1310_RL_SCAPC">
+        <TestResult BoardFlag="1" ID="1" SerialNumber="NOCODE">
+          <Outcome value="Passed" />
+          <Description>0.0</Description>
+          <TestData>
+            <c:Datum xsi:type="c:string">
+              <c:Value>0:90</c:Value>
+            </c:Datum>
+          </TestData>
+        </TestResult>
+      </SubItemTest>
+      <SubItemTest ID="3" name="R101:1550_IL_SCAPC">
+        <TestResult BoardFlag="1" ID="1" SerialNumber="NOCODE">
+          <Outcome value="Failed" />
+          <Description>54.77</Description>
+          <TestData>
+            <c:Datum xsi:type="c:string">
+              <c:Value>0:0.3</c:Value>
+            </c:Datum>
+          </TestData>
+        </TestResult>
+      </SubItemTest>
+      <SubItemTest ID="4" name="R101:1550_RL_SCAPC">
+        <TestResult BoardFlag="1" ID="1" SerialNumber="NOCODE">
+          <Outcome value="Failed" />
+          <Description>0.0</Description>
+          <TestData>
+            <c:Datum xsi:type="c:string">
+              <c:Value>60:90</c:Value>
+            </c:Datum>
+          </TestData>
+        </TestResult>
+      </SubItemTest>
+    </ItemTest>
+  </ResultSet>
+  <Personnel>
+    <SystemOperator ID="Admin" />
+  </Personnel>
+  <UUT UutType="hardware">
+    <SerialNumber>1914130890/1810031606S000008</SerialNumber>
+    <ItemName>Outdoor SCAPC/150M</ItemName>
+    <ItemCode>14130890</ItemCode>
+  </UUT>
+  <TestProgram Productline="Access Network" Product="iODN">
+    <c:Definition name="SmartX-U5100-ODN(AVIC)" version="16.0125" />
+  </TestProgram>
+  <TestStation AteName="HUAWEI-JC-6" AteVersion="V1.0" />
+  <WorkOrder>
+    <WorkItem name="-">
+      <c:Datum xsi:type="c:string">
+        <c:Value>werewrew</c:Value>
+      </c:Datum>
+    </WorkItem>
+  </WorkOrder>
+</TestResults>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Setting>
+  <MainLogin>
+    <Oper>张三</Oper>
+    <WorkId>001</WorkId>
+    <LoginName>12345</LoginName>
+    <LoginPsd>1234</LoginPsd>
+  </MainLogin>
+  <ServerLogin>
+    <ServerName>127.0.0.1</ServerName>
+    <DbName>Product</DbName>
+    <LoginName>sa</LoginName>
+    <LoginPsd>461764034</LoginPsd>
+  </ServerLogin>
+  <BasicInfo>
+    <OpName>张三</OpName>
+    <Description>CM181003</Description>
+    <OpWorkId>1581218A</OpWorkId>
+    <Product>iODN</Product>
+    <OpTeam>M6</OpTeam>
+    <ProLine>Access Network</ProLine>
+    <Department>光器件制造部</Department>
+    <TestDeviceId>HUAWEI-JC-6</TestDeviceId>
+    <TestProcess>1</TestProcess>
+    <TestDeviceVersion>V1.0</TestDeviceVersion>
+    <TestStation>MP2</TestStation>
+    <TestSoftName>SmartX-U5100-ODN(AVIC)</TestSoftName>
+  </BasicInfo>
+  <UserSet>
+    <ProCode>14133726</ProCode>
+    <ProDescrip>Outdoor SCAPC/150M</ProDescrip>
+    <ProCore>1</ProCore>
+    <ProHead>单头</ProHead>
+    <PinAconnType>SCAPC</PinAconnType>
+    <PinBconnType>
+    </PinBconnType>
+    <TestSeq>同芯</TestSeq>
+    <TestMode>dB</TestMode>
+  </UserSet>
+</Setting>

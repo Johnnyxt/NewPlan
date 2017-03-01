@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestResults schemaLocation="http://www.ieee.org/ATML/2007/TestResults TestResults.xsd" xmlns="http://www.ieee.org/ATML/2007/TestResults" xmlns:n2="http://www.altova.com/samplexml/other-namespace" xmlns:c="http://www.ieee.org/ATML/2007/02/Common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ResultSet ID="1" startDateTime="2016-07-27T13:22:09" endDateTime="2016-07-27T13:32:36" operationSequence="1" siteCode="MP2">
+    <Description>CM181003</Description>
+    <TestResult BoardFlag="1" ID="1">
+      <Outcome value="FAIL" />
+    </TestResult>
+    <ItemTest ID="1" name="IL_RL Test(1A)" startDateTime="2016-07-27T13:32:26" endDateTime="2016-07-27T13:32:26">
+      <TestResult BoardFlag="1" ID="1" ValueFlag="0" SerialNumber="NOCODE">
+        <outcome value="Failed" />
+        <Description>NoDesc</Description>
+      </TestResult>
+      <SubItemTest ID="1" name="R101:1310_IL_SCAPC-A">
+        <TestReuslt BoardFlag="1" ID="1" SerialNumber="NOCODE">
+          <Outcome value="Failed" />
+          <Description>41.22</Description>
+        </TestReuslt>
+      </SubItemTest>
+      <SubItemTest ID="2" name="R101:1310_RL_SCAPC-A">
+        <TestReuslt BoardFlag="1" ID="1" SerialNumber="NOCODE">
+          <Outcome value="Passed" />
+          <Description>13.7</Description>
+        </TestReuslt>
+      </SubItemTest>
+      <SubItemTest ID="3" name="R101:1550_IL_SCAPC-A">
+        <TestReuslt BoardFlag="1" ID="1" SerialNumber="NOCODE">
+          <Outcome value="Failed" />
+          <Description>41.29</Description>
+        </TestReuslt>
+      </SubItemTest>
+      <SubItemTest ID="4" name="R101:1550_RL_SCAPC-A">
+        <TestReuslt BoardFlag="1" ID="1" SerialNumber="NOCODE">
+          <Outcome value="Failed" />
+          <Description>13.5</Description>
+        </TestReuslt>
+      </SubItemTest>
+    </ItemTest>
+    <ItemTest ID="2" name="IL_RL Test(2A)" startDateTime="2016-07-27T13:32:29" endDateTime="2016-07-27T13:32:29">
+      <TestResult BoardFlag="1" ID="1" ValueFlag="0" SerialNumber="NOCODE">
+        <outcome value="Passed" />
+        <Description>NoDesc</Description>
+      </TestResult>
+      <SubItemTest ID="1" name="R101:1310_IL_SCAPC-A">
+        <TestReuslt BoardFlag="1" ID="1" SerialNumber="NOCODE">
+          <Outcome value="Failed" />
+          <Description>41.21</Description>
+        </TestReuslt>
+      </SubItemTest>
+      <SubItemTest ID="2" name="R101:1310_RL_SCAPC-A">
+        <TestReuslt BoardFlag="1" ID="1" SerialNumber="NOCODE">
+          <Outcome value="Passed" />
+          <Description>13.7</Description>
+        </TestReuslt>
+      </SubItemTest>
+      <SubItemTest ID="3" name="R101:1550_IL_SCAPC-A">
+        <TestReuslt BoardFlag="1" ID="1" SerialNumber="NOCODE">
+          <Outcome value="Failed" />
+          <Description>41.12</Description>
+        </TestReuslt>
+      </SubItemTest>
+      <SubItemTest ID="4" name="R101:1550_RL_SCAPC-A">
+        <TestReuslt BoardFlag="1" ID="1" SerialNumber="NOCODE">
+          <Outcome value="Failed" />
+          <Description>13.1</Description>
+        </TestReuslt>
+      </SubItemTest>
+    </ItemTest>
+    <ItemTest ID="3" name="IL_RL Test(3A)" startDateTime="2016-07-27T13:32:33" endDateTime="2016-07-27T13:32:33">
+      <TestResult BoardFlag="1" ID="1" ValueFlag="0" SerialNumber="NOCODE">
+        <outcome value="Failed" />
+        <Description>NoDesc</Description>
+      </TestResult>
+      <SubItemTest ID="1" name="R101:1310_IL_SCAPC-A">
+        <TestReuslt BoardFlag="1" ID="1" SerialNumber="NOCODE">
+          <Outcome value="Failed" />
+          <Description>41.19</Description>
+        </TestReuslt>
+      </SubItemTest>
+      <SubItemTest ID="2" name="R101:1310_RL_SCAPC-A">
+        <TestReuslt BoardFlag="1" ID="1" SerialNumber="NOCODE">
+          <Outcome value="Passed" />
+          <Description>13.7</Description>
+        </TestReuslt>
+      </SubItemTest>
+      <SubItemTest ID="3" name="R101:1550_IL_SCAPC-A">
+        <TestReuslt BoardFlag="1" ID="1" SerialNumber="NOCODE">
+          <Outcome value="Failed" />
+          <Description>41.10</Description>
+        </TestReuslt>
+      </SubItemTest>
+      <SubItemTest ID="4" name="R101:1550_RL_SCAPC-A">
+        <TestReuslt BoardFlag="1" ID="1" SerialNumber="NOCODE">
+          <Outcome value="Failed" />
+          <Description>13.2</Description>
+        </TestReuslt>
+      </SubItemTest>
+    </ItemTest>
+  </ResultSet>
+  <Personnel>
+    <SystemOperator ID="Admin" />
+  </Personnel>
+  <UUT UutType="hardware">
+    <SerialNumber>1914130896/1810031606S000001</SerialNumber>
+    <ItemName>Outdoor SCAPC/150M</ItemName>
+    <ItemCode>14130896</ItemCode>
+  </UUT>
+  <TestProgram ProductLine="Access Network" Product="iODN">
+    <Definition name="SmartX-U5100-ODN(AVIC)" version="16.0125" />
+  </TestProgram>
+  <TestStation AteName="HUAWEI-JC-6" AteVersion="V1.0" />
+  <WorkOrder>
+    <WorkItem name="-">
+      <Datum type="c:string">
+        <Value>werewrew</Value>
+      </Datum>
+    </WorkItem>
+  </WorkOrder>
+</TestResults>

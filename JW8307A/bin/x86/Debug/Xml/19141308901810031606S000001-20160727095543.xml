@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestResults schemaLocation="http://www.ieee.org/ATML/2007/TestResults TestResults.xsd" xmlns="http://www.ieee.org/ATML/2007/TestResults" xmlns:n2="http://www.altova.com/samplexml/other-namespace" xmlns:c="http://www.ieee.org/ATML/2007/02/Common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ResultSet ID="1" startDateTime="2016-07-27T09:55:37" endDateTime="2016-07-27T09:55:43" operationSequence="1" siteCode="MP2">
+    <Description>CM181003</Description>
+    <TestResult BoardFlag="1" ID="1">
+      <Outcome value="FAIL" />
+    </TestResult>
+    <ItemTest ID="1" name="IL_RL Test(1A)" startDateTime="2016-07-27T09:55:41" endDateTime="2016-07-27T09:55:41">
+      <TestResult BoardFlag="1" ID="1" ValueFlag="0" SerialNumber="NOCODE">
+        <outcome value="Passed" />
+        <Description>NoDesc</Description>
+      </TestResult>
+      <SubItemTest ID="1" name="R101:1310_IL_SCAPC-A">
+        <TestReuslt BoardFlag="1" ID="1" SerialNumber="NOCODE">
+          <Outcome value="Passed" />
+          <Description>0.01</Description>
+        </TestReuslt>
+      </SubItemTest>
+      <SubItemTest ID="2" name="R101:1310_RL_SCAPC-A">
+        <TestReuslt BoardFlag="1" ID="1" SerialNumber="NOCODE">
+          <Outcome value="Passed" />
+          <Description>13.8</Description>
+        </TestReuslt>
+      </SubItemTest>
+      <SubItemTest ID="3" name="R101:1550_IL_SCAPC-A">
+        <TestReuslt BoardFlag="1" ID="1" SerialNumber="NOCODE">
+          <Outcome value="Failed" />
+          <Description>
+          </Description>
+        </TestReuslt>
+      </SubItemTest>
+      <SubItemTest ID="4" name="R101:1550_RL_SCAPC-A">
+        <TestReuslt BoardFlag="1" ID="1" SerialNumber="NOCODE">
+          <Outcome value="Failed" />
+          <Description>
+          </Description>
+        </TestReuslt>
+      </SubItemTest>
+    </ItemTest>
+  </ResultSet>
+  <Personnel>
+    <SystemOperator ID="Admin" />
+  </Personnel>
+  <UUT UutType="hardware">
+    <SerialNumber>1914130890/1810031606S000001</SerialNumber>
+    <ItemName>Outdoor SCAPC/150M</ItemName>
+    <ItemCode>14130890</ItemCode>
+  </UUT>
+  <TestProgram ProductLine="Access Network" Product="iODN">
+    <Definition name="SmartX-U5100-ODN(AVIC)" version="16.0125" />
+  </TestProgram>
+  <TestStation AteName="HUAWEI-JC-6" AteVersion="V1.0" />
+  <WorkOrder>
+    <WorkItem name="-">
+      <Datum type="c:string">
+        <Value>werew</Value>
+      </Datum>
+    </WorkItem>
+  </WorkOrder>
+</TestResults>
